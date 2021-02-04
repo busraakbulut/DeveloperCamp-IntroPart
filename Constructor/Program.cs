@@ -13,10 +13,14 @@ namespace Constructor
     }
     class Customer
     {
-        // kendi oluşturduğumuz constru
+        // kendi oluşturduğumuz constructor ve bir method gibi düşünebiliriz.
+        // bunu oluşturduğumuzda bizim classımızdaki ürünleri set etmemiz gerekiyor yoksa atama gerçekleştiriliyor ama atadığımız değeri döndüremiyoruz.
         public Customer(int id, string firstName, string lastName, string city)//
         {
-
+            Id = id;
+            FirstName = firstName;
+            LastName = lastName;
+            City = city;
         }
         // default constructordır yazmamıza gerek yoktur 
         public Customer() // bu bir constructor (ctor tab*2)
