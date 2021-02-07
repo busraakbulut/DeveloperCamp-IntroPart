@@ -6,7 +6,8 @@ namespace OOP2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Musteri musteri1 = new Musteri();
+
         }
     }
 }
