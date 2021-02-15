@@ -19,6 +19,7 @@ namespace Metotlar
             urun2.Aciklama = "Diyarbakır Karpuzu";
 
             Product[] urunler = new Product[] { urun1, urun2 };
+
             foreach (Product x in urunler)
             {
                 Console.WriteLine(x.Adi);
@@ -26,6 +27,7 @@ namespace Metotlar
                 Console.WriteLine(x.Aciklama);
                 Console.WriteLine("---------------------");
             }
+
 
             Console.WriteLine("---------Metotlar-------------");
             SepetManager sepetManager = new SepetManager();

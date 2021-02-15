@@ -40,7 +40,7 @@ namespace ClassIntro
             
         }
     }
-    class Kurs // user defined type
+    class Kurs  // user defined type
     {
         public string Kursadi { get; set; }
         public string Egitmen { get; set; }

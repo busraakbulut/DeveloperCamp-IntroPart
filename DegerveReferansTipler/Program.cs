@@ -24,11 +24,11 @@ namespace DegerveReferansTipler
             Console.WriteLine(sayilar2[0]);
             Console.WriteLine(sayilar1[0]);
             // int, decimal,float,double,bool = değer tip
-            //array,class,interface = referance tip
+            // array,class,interface = referance tip
             // değer tipler sadece stacklerde tutulur.
             // referans tipler heaplerde tutulur.
-            // new demek heapde yer ayırtıyor.
-            //değer tiplerde değer atılırken, referans tiplerde adres numarası atanır.
+            // her new satırı yazıldığında  heapde yer ayırtılıyor.
+            // değer tiplerde değer atılırken, referans tiplerde adres numarası atanır.
 
         }
     }

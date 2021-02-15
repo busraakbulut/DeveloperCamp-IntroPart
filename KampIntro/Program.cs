@@ -9,7 +9,6 @@ namespace ClassIntro
             string name = "Büşra";
             int age = 20;
 
-
             Kurs kurs1 = new Kurs();
             kurs1.Kursadi = "c#";
             kurs1.Egitmen = "Engin Demiroğ";

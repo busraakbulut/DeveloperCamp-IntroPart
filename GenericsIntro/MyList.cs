@@ -8,7 +8,8 @@ namespace GenericsIntro
     class MyList<T>
     {
         T[] items;
-        // default constructor 
+
+        // constructor 
         public MyList()
         {
             items = new T[0];// diziyi 0 elemanlı yaptık
@@ -23,7 +24,7 @@ namespace GenericsIntro
                 items[i] = tempArray[i];
             }
 
-            items[items.Length - 1] = item;
+            items[items.Length - 1] = item; // istenen eleman eklendi.
         }
 
 

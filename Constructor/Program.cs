@@ -23,7 +23,7 @@ namespace Constructor
             City = city;
         }
         // default constructordır yazmamıza gerek yoktur 
-        public Customer() // bu bir constructor (ctor tab*2)
+        public Customer()  // bu bir default constructor (ctor tab*2)
         {
 
         }

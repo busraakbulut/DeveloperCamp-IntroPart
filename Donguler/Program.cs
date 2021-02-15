@@ -6,7 +6,6 @@ namespace ödevkamp1
     {
         static void Main(string[] args)
         {
-
             Product urun1 = new Product();
             urun1.ProductAdi = "Evde Spor";
             urun1.ProductTipi = "Pilates & Yoga";

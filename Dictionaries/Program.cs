@@ -7,7 +7,7 @@ namespace Dictionaries
     {
         static void Main(string[] args)
         {
-            MyDictionary<int , string> dict = new MyDictionary<int, string>() ;
+            MyDictionary<int , string> dict = new MyDictionary<int, string>();
             dict.Add(1 , "Büşra");
             Console.WriteLine(dict.KeyLength);
             Console.WriteLine(dict.ValueLength);

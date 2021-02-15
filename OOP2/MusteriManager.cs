@@ -6,10 +6,9 @@ namespace OOP2
 {
     class MusteriManager
     {// Manager classları business classlardır. Bu classlarda sadece kuralları yazarız. 
-        public void Add(Musteri musteri)
-        {       
-            
-
+        public void Add(Musteri  musteri)
+        {
+            Console.WriteLine( musteri.Id + " added! ");
         }
 
     }

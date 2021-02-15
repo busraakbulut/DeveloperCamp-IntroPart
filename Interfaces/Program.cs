@@ -17,7 +17,6 @@ namespace Interfaces
             ProjectManager projectManager = new ProjectManager();
             projectManager.Add(new InternManager());
             projectManager.Update(new InternManager());
-
         }
     }
 
